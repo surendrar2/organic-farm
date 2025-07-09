@@ -39,7 +39,7 @@ export default function PaymentPage() {
 
     setIsProcessing(true);
 
-    // Simulate payment processing
+ 
     setTimeout(() => {
       // Simulate gateway
       if (selectedMode === 'UPI') {
