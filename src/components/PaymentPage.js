@@ -8,7 +8,7 @@ export default function PaymentPage() {
   const [expiry, setExpiry] = useState('');
   const [cvv, setCvv] = useState('');
   const [isProcessing, setIsProcessing] = useState(false);
-  const navigate = useNavigate(); // ✅ useNavigate hook
+  const navigate = useNavigate(); 
 
   const handleSelectMode = (mode) => {
     setSelectedMode(mode);
