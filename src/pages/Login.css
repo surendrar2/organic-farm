@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  background: radial-gradient(circle, #ff7e5f, #feb47b, #feca8d, #fceba5, #fbffbe);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  width: 350px;
+  margin: 100px auto;
+  padding: 30px;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50% }
+  50% { background-position: 100% 50% }
+  100% { background-position: 0% 50% }
+}
+
+h2 {
+  color: #333;
+}
+
+.form-group {
+  margin: 20px 0;
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  background: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+.link-text {
+  margin-top: 20px;
+  color: #555;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.link-text:hover {
+  color: #333;
+}
